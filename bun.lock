@@ -5,7 +5,7 @@
     "": {
       "name": "@sudobility/subscription_service",
       "devDependencies": {
-        "@sudobility/types": "^1.9.68",
+        "@sudobility/types": "^1.9.71",
         "@types/bun": "latest",
         "@types/node": "^24.10.1",
         "@typescript-eslint/eslint-plugin": "^8.50.0",
@@ -20,7 +20,7 @@
         "vitest": "^4.0.4",
       },
       "peerDependencies": {
-        "@sudobility/types": "^1.9.68",
+        "@sudobility/types": "^1.9.71",
         "drizzle-orm": "^0.45.0",
         "hono": "^4.0.0",
         "postgres": "^3.4.0",
@@ -162,7 +162,7 @@
 
     "@standard-schema/spec": ["@standard-schema/spec@1.1.0", "", {}, "sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w=="],
 
-    "@sudobility/types": ["@sudobility/types@1.9.68", "", {}, "sha512-4LL5+UfcqQcc0PKKR/z/PqS6j9DQPVkkjL+3oOW+Bwx0TAu1SVKAlPhlt/9ruNMW+abcHuZoFvbOVD5gdYBSGw=="],
+    "@sudobility/types": ["@sudobility/types@1.9.71", "", {}, "sha512-BhgnvH5zF3HEiknZYbhtaMEuQ9q18qBFJErg8hzObJaHlXp95RauswKLeoHl9viVCFtpiWhOUPiT5kA5/iR7bQ=="],
 
     "@types/bun": ["@types/bun@1.3.5", "", { "dependencies": { "bun-types": "1.3.5" } }, "sha512-RnygCqNrd3srIPEWBd5LFeUYG7plCoH2Yw9WaZGyNmdTEei+gWaHqydbaIRkIkcbXwhBT94q78QljxN0Sk838w=="],
 
