@@ -5,22 +5,22 @@
     "": {
       "name": "@sudobility/ratelimit_service",
       "devDependencies": {
-        "@sudobility/types": "^1.9.74",
+        "@sudobility/types": "^1.9.75",
         "@types/bun": "latest",
-        "@types/node": "^24.10.1",
-        "@typescript-eslint/eslint-plugin": "^8.50.0",
-        "@typescript-eslint/parser": "^8.50.0",
-        "drizzle-orm": "^0.45.0",
-        "eslint": "^9.39.2",
-        "eslint-plugin-import": "^2.32.0",
-        "hono": "^4.10.7",
-        "postgres": "^3.4.8",
-        "prettier": "^3.7.4",
-        "typescript": "^5.9.3",
-        "vitest": "^4.0.4",
+        "@types/node": "~24.19.2",
+        "@typescript-eslint/eslint-plugin": "~8.72.0",
+        "@typescript-eslint/parser": "~8.72.0",
+        "drizzle-orm": "~0.45.4",
+        "eslint": "~9.39.5",
+        "eslint-plugin-import": "~2.32.0",
+        "hono": "~4.13.13",
+        "postgres": "~3.4.9",
+        "prettier": "~3.9.10",
+        "typescript": "~5.9.3",
+        "vitest": "~4.1.12",
       },
       "peerDependencies": {
-        "@sudobility/types": "^1.9.74",
+        "@sudobility/types": "^1.9.75",
         "drizzle-orm": "^0.45.0",
         "hono": "^4.0.0",
         "postgres": "^3.4.0",
@@ -96,7 +96,7 @@
 
     "@standard-schema/spec": ["@standard-schema/spec@1.1.0", "", {}, "sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w=="],
 
-    "@sudobility/types": ["@sudobility/types@1.9.74", "https://npm.pkg.github.com/download/@sudobility/types/1.9.74/f9ad864ba5d8d1097e7e48378ebee8aa7e129e88", {}, "sha512-jgt0F1r71qjFNiRNn/1YlL4JU65sjnzYd8Sfi+Y9z62Lu9VhIXeqWAH12u7/hmGPZqG3nxzn0V+s3sFkB1qWuQ=="],
+    "@sudobility/types": ["@sudobility/types@1.9.75", "https://npm.pkg.github.com/download/@sudobility/types/1.9.75/d041222e1a9c48b1857a25686361fa493265e572", {}, "sha512-c0IqHhNsyMxWFzv+sC8drTXid1s/yberzme5JJTYIR2CE+DxpnjFCyL0AIMKUwTQYhYKvRZG0JkWRFplirbBrw=="],
 
     "@types/bun": ["@types/bun@1.4.4", "", { "dependencies": { "bun-types": "1.4.4" } }, "sha512-9wkRDXUXK124pEnAutE6n/l18j+i9GC5IAHK8TmX/2nlySETmky0OU6yL5U8pW1AoKh++AN9auDCr647BfurjQ=="],
 
