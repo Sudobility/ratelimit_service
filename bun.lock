@@ -5,7 +5,7 @@
     "": {
       "name": "@sudobility/ratelimit_service",
       "devDependencies": {
-        "@sudobility/types": "^1.9.76",
+        "@sudobility/types": "^1.9.78",
         "@types/bun": "latest",
         "@types/node": "~24.19.2",
         "@typescript-eslint/eslint-plugin": "~8.72.0",
@@ -20,7 +20,7 @@
         "vitest": "~4.1.12",
       },
       "peerDependencies": {
-        "@sudobility/types": "^1.9.76",
+        "@sudobility/types": "^1.9.78",
         "drizzle-orm": "^0.45.0",
         "hono": "^4.0.0",
         "postgres": "^3.4.0",
@@ -96,7 +96,7 @@
 
     "@standard-schema/spec": ["@standard-schema/spec@1.1.0", "", {}, "sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w=="],
 
-    "@sudobility/types": ["@sudobility/types@1.9.76", "https://npm.pkg.github.com/download/@sudobility/types/1.9.76/71635156f72fd9461107d5f147b3dc1c49f863d0", {}, "sha512-b7maZHR5wM84VlQ+l9R+2guzSOrExog6OUNy1oCe7h0abW13syycmnLQL0g+qql0aQ84qTB4A0mJelhY3Vef4Q=="],
+    "@sudobility/types": ["@sudobility/types@1.9.78", "https://npm.pkg.github.com/download/@sudobility/types/1.9.78/19ca0df5ad7d490bafc1b84384a8002f5dbc29ea", {}, "sha512-W6DYMUf7D0cVVUHDv5T8YZ339Wyay6xPx0CsdfNVgHDsm1ISDLhwacUwlM9xnvwXHGuAhP77wRVVo3uKGZe46Q=="],
 
     "@types/bun": ["@types/bun@1.4.4", "", { "dependencies": { "bun-types": "1.4.4" } }, "sha512-9wkRDXUXK124pEnAutE6n/l18j+i9GC5IAHK8TmX/2nlySETmky0OU6yL5U8pW1AoKh++AN9auDCr647BfurjQ=="],
 

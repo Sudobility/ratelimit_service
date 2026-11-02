@@ -1,6 +1,6 @@
 {
   "name": "@sudobility/ratelimit_service",
-  "version": "1.0.48",
+  "version": "1.0.49",
   "description": "Shared rate limiting library based on RevenueCat entitlements",
   "type": "module",
   "main": "./dist/index.js",
@@ -20,7 +20,7 @@
     }
   },
   "scripts": {
-    "build": "tsc -p tsconfig.esm.json",
+    "build": "tsc -p tsconfig.esm.json && node scripts/fix-esm-imports.mjs",
     "clean": "rm -rf dist",
     "dev": "tsc --watch",
     "test:unit": "vitest run",
@@ -48,14 +48,14 @@
   "author": "Sudobility",
   "license": "BUSL-1.1",
   "peerDependencies": {
-    "@sudobility/types": "^1.9.76",
+    "@sudobility/types": "^1.9.78",
     "drizzle-orm": "^0.45.0",
     "hono": "^4.0.0",
     "postgres": "^3.4.0"
   },
   "devDependencies": {
     "vitest": "~4.1.12",
-    "@sudobility/types": "^1.9.76",
+    "@sudobility/types": "^1.9.78",
     "@types/bun": "latest",
     "@types/node": "~24.19.2",
     "@typescript-eslint/eslint-plugin": "~8.72.0",
